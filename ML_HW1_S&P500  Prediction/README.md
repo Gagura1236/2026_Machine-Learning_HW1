@@ -8,7 +8,7 @@
 ## 📁 專案檔案一覽
 
 ```
-RA7141236_HW_1/
+專案根目錄/
 ├── data/                             # 輸出的 CSV 結果（由程式自動產生）
 │   ├── model_comparison.csv          # 版本 1.0：4 項評估指標
 │   └── model_comparison_v1.1.csv     # 版本 1.1：15 項評估指標
@@ -96,7 +96,7 @@ jupyter notebook
 
 #### 方法二：Python 腳本（終端機最簡單）
 ```bash
-# 從專案根目錄（RA7141236_HW_1/）執行
+# 從專案根目錄（專案根目錄/）執行
 python src/sp500_prediction.py
 ```
 
@@ -110,7 +110,7 @@ python src/sp500_prediction.py
 > ⚠️ **若出現 `XGBoostError`** → 確認已執行 `brew install libomp` 並重啟 VSCode
 
 1. 安裝擴充套件：**Python**（Microsoft）+ **Jupyter**（Microsoft）
-2. File → Open Folder → 選 `RA7141236_HW_1`
+2. File → Open Folder → 選 `自己的專案名稱`
 3. 點開 `.ipynb` → Select Kernel → Run All
 4. 若套件找不到：在 Cell 1 執行 `%pip install -r requirements.txt`
 

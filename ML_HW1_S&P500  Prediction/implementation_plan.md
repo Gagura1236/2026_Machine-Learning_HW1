@@ -304,7 +304,7 @@ plotly      >= 5.18.0  # 互動式 HTML 報告（sp500_interactive_report.py）
 
 **版本 1.0：**
 ```bash
-cd "/Users/你的名字/Library/你的資料夾路徑/RA7141236_HW_1"
+cd "/Users/你的名字/Library/你的資料夾路徑/專案資料夾名稱"
 python sp500_prediction.py
 ```
 預期輸出：

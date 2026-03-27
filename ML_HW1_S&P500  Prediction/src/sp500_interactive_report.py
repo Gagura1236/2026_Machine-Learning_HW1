@@ -12,6 +12,12 @@
 =============================================================================
 """
 
+import os
+import sys
+# 自動將工作目錄切換到專案根目錄 (src 的上一層)
+PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+os.chdir(PROJECT_ROOT)
+
 import warnings
 warnings.filterwarnings("ignore")
 
